@@ -1,0 +1,82 @@
+{
+  "Metadata": {
+    "title": "{companyName} - EXAMPLE_SLOGAN",
+    "description": "{companyName} is a EXAMPLE_DESCRIPTION",
+    "keywords": "{companyName}|EXAMPLE_KEYWORD"
+  },
+  "Index": {},
+  "Auth": {
+    "Login": {
+      "headline": "Log into Noketa.",
+      "body": "Welcome back! Let's get you started.",
+      "submit": "Log in",
+      "bottomText": "Don't have an account?",
+      "switch": "Sign up"
+    },
+    "Signup": {
+      "headline": "Create an account.",
+      "body": "Sign up to take your restaurant to the next level.",
+      "submit": "Create a new account",
+      "bottomText": "Already have an account?",
+      "switch": "Login"
+    }
+  },
+  "Components": {
+    "ModeToggle": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "toggleTheme": "Toggle theme"
+    },
+    "Forms": {
+      "Inputs": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "John Doe",
+          "settings": {
+            "headline": "Display Name",
+            "description": "Please enter your full name, or a display name you are comfortable with.",
+            "note": "Please use 32 characters at maximum.",
+            "button": "Update name"
+          }
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "john.doe@example.com",
+          "settings": {
+            "headline": "Email",
+            "description": "Enter the email addresses you want to use to log in with {companyName}.",
+            "note": "Please use 32 characters at maximum.",
+            "button": "Update email"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "*******",
+          "settings": {
+            "headline": "Change password",
+            "description": "Enter the new password you want to use to log in with {companyName}.",
+            "note": "Please use 32 characters at maximum.",
+            "button": "Change password"
+          }
+        },
+        "avatar": {
+          "label": "Avatar",
+          "settings": {
+            "headline": "Avatar",
+            "description": "This is your avatar.<br></br>Click on the avatar to upload a custom one from your files.",
+            "note": "An avatar is optional but strongly recommended."
+          }
+        }
+      },
+      "ErrorMessages": {
+        "email_taken": "This email is already taken.",
+        "unknown_error": "Something went wrong.",
+        "required_error": "This field is required.",
+        "invalid_email": "Hmm… that email doesn't look valid.",
+        "invalid_credentials": "The email adress or password is incorrect."
+      },
+      "loading": "Loading..."
+    }
+  }
+}

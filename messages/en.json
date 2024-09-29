@@ -1,0 +1,191 @@
+{
+  "Metadata": {
+    "title": "{companyName} - EXAMPLE_SLOGAN",
+    "description": "{companyName} is a EXAMPLE_DESCRIPTION",
+    "keywords": "{companyName}|EXAMPLE_KEYWORD"
+  },
+  "App": {
+    "Index": {},
+    "Billing": {
+      "headline": "Billing",
+      "body": "Your subscription details and billing information",
+      "plan": "Plan",
+      "price": "Price",
+      "nextBillingDate": "Next billing date",
+      "subscriptionEndDate": "Subscription end date"
+    },
+    "Pricing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "sale": "Save 17%",
+      "currentPlan": "Your current plan",
+      "Plans": {
+        "free": {
+          "description": "A nice way to get started.",
+          "features": "Priority Support|Unlimited Domains|Flexible Data Retention",
+          "missingFeatures": "Schedule Emails|Multi-Region|Single Sign-On|Dedicated IPs Included",
+          "cta": "Get started for free"
+        },
+        "pro": {
+          "description": "Best plan for smaller businesses.",
+          "features": "Priority Support|Unlimited Domains|Flexible Data Retention|Schedule Emails|Multi-Region",
+          "missingFeatures": "Single Sign-On|Dedicated IPs Included",
+          "cta": "Upgrade to Pro"
+        },
+        "enterprise": {
+          "description": "A plan based on your specific needs.",
+          "features": "Priority Support|Unlimited Domains|Flexible Data Retention|Schedule Emails|Multi-Region|Single Sign-On|Dedicated IPs Included",
+          "cta": "Contact sales"
+        }
+      }
+    },
+    "Checkout": {
+      "headline": "Upgrade to Pro",
+      "cta": "Upradge to pro",
+      "back": "Back",
+      "monthly": {
+        "body": "Pro plan cost <span>€12/month</span>. After upgrading your credit card will be charged immediately and you'll gain access to all premium features."
+      },
+      "yearly": {
+        "body": "Pro plan cost <span>€10/month (billed yearly)</span>. After upgrading your credit card will be charged immediately and you'll gain access to all premium features."
+      }
+    }
+  },
+  "Auth": {
+    "Login": {
+      "headline": "Log into Noketa.",
+      "body": "Welcome back! Let's get you started.",
+      "submit": "Log in",
+      "bottomText": "Don't have an account?",
+      "switch": "Sign up"
+    },
+    "Signup": {
+      "headline": "Create an account.",
+      "body": "Sign up to take your restaurant to the next level.",
+      "submit": "Create a new account",
+      "bottomText": "Already have an account?",
+      "switch": "Login"
+    }
+  },
+  "Components": {
+    "ModeToggle": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "toggleTheme": "Toggle theme"
+    },
+    "Sidebar": {
+      "1": {
+        "headline": "Main",
+        "1": "Home",
+        "2": "Access control",
+        "3": "Appearance"
+      },
+      "2": {
+        "headline": "Management",
+        "1": "Reservations",
+        "2": "Reservation book",
+        "3": "Gift vouchers",
+        "4": "Menu"
+      },
+      "3": {
+        "headline": "Account",
+        "1": "Help",
+        "2": "Settings",
+        "3": "Billing",
+        "4": "Log out"
+      }
+    },
+    "Footer": {
+      "scrollToTop": "Scroll to Top",
+      "columns": {
+        "1": {
+          "headline": "Dashboard",
+          "links": {
+            "1": "Home",
+            "2": "Access control",
+            "3": "Appearance",
+            "4": "Reservations",
+            "5": "Reservation book",
+            "6": "Gift vouchers",
+            "7": "Menu"
+          }
+        },
+        "2": {
+          "headline": "Account",
+          "links": {
+            "1": "Help",
+            "2": "Settings",
+            "3": "Billing"
+          }
+        },
+        "3": {
+          "headline": "Updates",
+          "links": {
+            "1": "Twitter",
+            "2": "LinkedIn"
+          }
+        },
+        "4": {
+          "headline": "Resources",
+          "links": {
+            "1": "Affiliate",
+            "2": "Contact",
+            "3": "Docs",
+            "4": "Blog"
+          }
+        }
+      }
+    },
+    "Forms": {
+      "Inputs": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "John Doe",
+          "settings": {
+            "headline": "Display Name",
+            "description": "Please enter your full name, or a display name you are comfortable with.",
+            "note": "Please use 32 characters at maximum.",
+            "button": "Update name"
+          }
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "john.doe@example.com",
+          "settings": {
+            "headline": "Email",
+            "description": "Enter the email addresses you want to use to log in with {companyName}.",
+            "note": "Please use 32 characters at maximum.",
+            "button": "Update email"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "*******",
+          "settings": {
+            "headline": "Change password",
+            "description": "Enter the new password you want to use to log in with {companyName}.",
+            "note": "Please use 32 characters at maximum.",
+            "button": "Change password"
+          }
+        },
+        "avatar": {
+          "label": "Avatar",
+          "settings": {
+            "headline": "Avatar",
+            "description": "This is your avatar.<br></br>Click on the avatar to upload a custom one from your files.",
+            "note": "An avatar is optional but strongly recommended."
+          }
+        }
+      },
+      "ErrorMessages": {
+        "email_taken": "This email is already taken.",
+        "unknown_error": "Something went wrong.",
+        "required_error": "This field is required.",
+        "invalid_email": "Hmm… that email doesn't look valid.",
+        "invalid_credentials": "The email adress or password is incorrect."
+      },
+      "loading": "Loading..."
+    }
+  }
+}
